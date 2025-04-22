@@ -51,7 +51,7 @@ python ldap_enum.py -s <SERVER> -d <DOMAIN> [OPTIONS]
 ### Authentication Options
 #### Option 1: Authenticated Access (Username + Password)
 ```bash
-python ldap_enum.py -s 10.10.11.174 -d domain.lab -u 'domain\user' -P 'P@ssw0rd123!'
+python ldap_enum.py -s 10.10.10.100 -d domain.lab -u 'domain\user' -P 'P@ssw0rd123!'
 ```
 
 - `-u / --username`: Username in `DOMAIN\user` or `user@domain` format.
