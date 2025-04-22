@@ -39,7 +39,7 @@ pip install ldap3 prettytable
 ## 3. Usage
 ### Basic Syntax
 ```bash
-python ldap_enum.py -s <SERVER> -d <DOMAIN> [OPTIONS]
+python ldap_hunter.py -s <SERVER> -d <DOMAIN> [OPTIONS]
 ```
 ### Required Arguments
 
@@ -51,7 +51,7 @@ python ldap_enum.py -s <SERVER> -d <DOMAIN> [OPTIONS]
 ### Authentication Options
 #### Option 1: Authenticated Access (Username + Password)
 ```bash
-python ldap_enum.py -s 10.10.10.100 -d domain.lab -u 'domain\user' -P 'P@ssw0rd123!'
+python ldap_hunter.py -s 10.10.10.100 -d domain.lab -u 'domain\user' -P 'P@ssw0rd123!'
 ```
 
 - `-u / --username`: Username in `DOMAIN\user` or `user@domain` format.
@@ -59,13 +59,13 @@ python ldap_enum.py -s 10.10.10.100 -d domain.lab -u 'domain\user' -P 'P@ssw0rd1
 
 #### Option 2: Anonymous Access (If Allowed)
 ```bash
-python ldap_enum.py -s 10.10.10.100 -d domain.lab --no-auth
+python ldap_hunter.py -s 10.10.10.100 -d domain.lab --no-auth
 ```
 - `--no-auth`: Attempts anonymous LDAP binding.
 
 #### Option 3: LDAPS (SSL/TLS Encrypted Connection)
 ```bash
-python ldap_enum.py -s 10.10.10.100 -d domain.lab -u 'user@domain.lab' -P 'P@ssw0rd123!' --ssl
+python ldap_hunter.py -s 10.10.10.100 -d domain.lab -u 'user@domain.lab' -P 'P@ssw0rd123!' --ssl
 ```
 - `--ssl`: Forces LDAPS (port 636).
 
