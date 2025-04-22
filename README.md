@@ -1,5 +1,21 @@
 # LDAPHunter - LDAP Enumeration Tool
 
+<p align="center">
+    <img width="50%" src="https://i.imgur.com/94Xxs6W.png"> 
+</p>
+
+```
+                                  
+                                    _     ____    _    ____    _   _ _   _ _   _ _____ _____ ____  
+                                   | |   |  _ \  / \  |  _ \  | | | | | | | \ | |_   _| ____|  _ \ 
+                                   | |   | | | |/ _ \ | |_) | | |_| | | | |  \| | | | |  _| | |_) |
+                                   | |___| |_| / ___ \|  __/  |  _  | |_| | |\  | | | | |___|  _ < 
+                                   |_____|____/_/   \_\_|     |_| |_|\___/|_| \_| |_| |_____|_| \_\
+                                                                                                    - @xW43L
+                                  
+                                              LDAP Enumeration Tool for Pentesters
+```
+
 ## 1. Overview
 This Python tool automates LDAP enumeration for penetration testers, extracting users, groups, organizational units (OUs), password policies, and other critical Active Directory/LDAP information.
 
